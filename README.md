@@ -33,7 +33,7 @@ A esteira roda em **sequência** (o Designer não tem o que refazer antes do Sco
 
 O Verifier é o que segura a qualidade: ele não vê como o trabalho foi feito, só o resultado — então julga o que está na tela. Se a página quebra no celular, se o e-mail tem algo que cai no spam, se o site publicado ficou com imagem quebrada: volta pra correção antes de chegar no cliente.
 
-**Como criar:** no rodapé do menu esquerdo, em **Agent Team**, clique no **+**. Preencha *Name* (até 20 caracteres) e *Description* (até 100). O **Verifier já vem pronto** — só é preciso criar Scout, Designer, Publisher e Copywriter. As descrições prontas estão na skill `time-prospector`.
+**Como criar:** no menu esquerdo, em **Agent Team**, clique no **+**. O time começa vazio: crie os cinco (Scout, Designer, Publisher, Copywriter e Verifier). Preencha *Name* (até 20), *Description* (até 100) e **Default working folder** — aponte todos para a MESMA pasta do projeto. As descrições prontas estão na skill `time-prospector`.
 
 ## ⚠️ Precisa ser o MiniMax Code **desktop**
 
