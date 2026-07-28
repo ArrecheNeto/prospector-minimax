@@ -11,11 +11,13 @@ A esteira tem etapas com fronteiras claras — é o cenário ideal para dividir 
 
 ## Como criar o time no MiniMax Code
 
-No menu esquerdo, em **Agent Team**, clique no **+**. O time **começa vazio** — todos os agentes são criados por você. A janela *Create Agent* pede: ícone, **Name** (até 20 caracteres), **Description** (até 100 caracteres) e **Default working folder**.
+No menu esquerdo, em **Agent Team**, clique no **+**. A janela *Create Agent* pede: ícone, **Name** (até 20 caracteres), **Description** (até 100 caracteres) e **Default working folder**.
+
+> Assim que o primeiro agente é criado, aparecem também os padrões do MiniMax — **General**, **Coder** e **Verifier**. O **Verifier não precisa ser criado**: use o que já vem, e é este documento que define o que ele deve conferir.
 
 > **Importante:** aponte a *Default working folder* de TODOS os agentes para a mesma pasta do projeto (onde ficam `prospector-config.json`, `prospector.db` e `sites/`). Se cada agente trabalhar numa pasta diferente, o Designer não acha o lead que o Scout salvou.
 
-Crie estes cinco. As descrições já cabem no limite de 100 caracteres:
+Crie estes quatro (o Verifier já existe). As descrições já cabem no limite de 100 caracteres:
 
 | Name | Description (cole assim) |
 |---|---|
@@ -23,7 +25,6 @@ Crie estes cinco. As descrições já cabem no limite de 100 caracteres:
 | `Designer` | Refaz a página do lead em versão premium e gera as imagens que faltam. |
 | `Publisher` | Publica página, capa e mídias na HostGator e confere o HTTPS. |
 | `Copywriter` | Escreve a proposta anti-spam e cria o rascunho no Gmail. |
-| `Verifier` | Revisa a entrega dos outros antes de sair: site, publicação e e-mail. |
 
 As instruções detalhadas de cada papel NÃO vão nesse campo — elas vivem nas skills do plugin. A descrição é só o crachá que diz ao orquestrador quem faz o quê.
 
