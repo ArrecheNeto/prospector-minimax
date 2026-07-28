@@ -13,9 +13,10 @@ Arquitetura na RAIZ da pasta conectada:
 
 ## Setup (uma vez, no a configuração inicial (skill prospector-setup) ou no primeiro uso)
 
-1. Copie `references/dashboard-server.py` e `references/iniciar-dashboard.bat` desta skill para a raiz da pasta conectada.
+1. Garanta os arquivos do painel na raiz da pasta do projeto. Se `references/dashboard-server.py` e `references/iniciar-dashboard.bat` existirem na skill, copie de lá. Se não existirem (a importação pode não trazer as pastas de apoio), baixe do repositório:
+   `https://raw.githubusercontent.com/ArrecheNeto/prospector-minimax/main/dashboard/` — arquivos `dashboard-server.py`, `dashboard-template.html`, `iniciar-dashboard.bat` e `iniciar-dashboard.command`.
 2. Crie o `prospector.db` com o schema abaixo (via python3/sqlite3 no bash).
-3. Gere o `dashboard.html` a partir de `references/dashboard-template.html` substituindo `__DADOS__` pelo snapshot JSON.
+3. Gere o `dashboard.html` a partir do `dashboard-template.html` (o que veio em `references/` ou o baixado no passo 1), substituindo `__DADOS__` pelo snapshot JSON.
 4. Diga ao usuário: "duplo clique em `iniciar-dashboard.bat` abre o painel com o banco conectado" (requer Python instalado no Windows — se não tiver, o dashboard.html funciona no modo arquivo).
 
 ## Schema do banco
