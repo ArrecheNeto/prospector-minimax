@@ -5,7 +5,24 @@ description: Define o time de agentes do Prospector no MiniMax Code — quem faz
 
 # Time do Prospector (Agent Team)
 
-A esteira tem etapas com fronteiras claras — é o cenário ideal para dividir entre agentes em vez de um só fazendo tudo em série. Cada papel abaixo tem ferramentas, contexto e skill próprios.
+A esteira tem etapas com fronteiras claras — é o cenário ideal para dividir entre agentes em vez de um só fazendo tudo. Cada papel abaixo tem seu próprio contexto e sua própria skill.
+
+> **Como a esteira roda:** em **sequência**, não todos ao mesmo tempo — o Designer não tem o que refazer antes do Scout achar o lead. O paralelismo real acontece **dentro** de uma etapa: várias buscas ao mesmo tempo (por nicho ou cidade) ou vários sites sendo refeitos ao mesmo tempo.
+
+## Como criar o time no MiniMax Code
+
+No rodapé do menu esquerdo, em **Agent Team**, clique no **+**. A janela *Create Agent* pede só três coisas: ícone, **Name** (até 20 caracteres) e **Description** (até 100 caracteres).
+
+O **Verifier já vem pronto** (junto com General e Coder) — só é preciso criar os quatro abaixo. Use estas descrições, que cabem no limite:
+
+| Name | Description (cole assim) |
+|---|---|
+| `Scout` | Acha e qualifica leads no Google Maps: nota alta, site fraco, com e-mail. |
+| `Designer` | Refaz a página do lead em versão premium e gera as imagens que faltam. |
+| `Publisher` | Publica página, capa e mídias na HostGator e confere o HTTPS. |
+| `Copywriter` | Escreve a proposta anti-spam e cria o rascunho no Gmail. |
+
+As instruções detalhadas de cada papel NÃO vão nesse campo — elas vivem nas skills do plugin. A descrição é só o crachá que diz ao orquestrador quem faz o quê.
 
 ## Os papéis
 
