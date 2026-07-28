@@ -31,6 +31,12 @@ Verifier   → revisa a entrega de cada um, sem ter participado da execução
 
 O Verifier é o que segura a qualidade: ele não vê como o trabalho foi feito, só o resultado — então julga o que está na tela. Se a página quebra no celular, se o e-mail tem algo que cai no spam, se o site publicado ficou com imagem quebrada: volta pra correção antes de chegar no cliente.
 
+## ⚠️ Precisa ser o MiniMax Code **desktop**
+
+Este plugin mexe em arquivos no seu computador: cria o banco de leads, gera os sites, roda o painel local e publica na hospedagem. Isso exige a versão **desktop** (self-hosted), que tem acesso ao disco e ao terminal — baixe em [agent.minimax.io/download](https://agent.minimax.io/download).
+
+Na versão **web** (nuvem) a busca até roda, mas nada é salvo na sua máquina: sem painel, sem publicação, sem banco de leads.
+
 ## Instalação
 
 1. **Skills** — no MiniMax Code, vá em **Skills → Create**. Três caminhos:
@@ -45,7 +51,7 @@ O Verifier é o que segura a qualidade: ele não vê como o trabalho foi feito, 
    ```
    É ele que guarda os leads (SQLite, local).
 3. **Navegador** — necessário para a prospecção abrir o Maps e os sites dos leads.
-4. **Painel** — a skill `prospector-setup` instala o `dashboard/` na pasta do projeto (precisa de Python no PATH).
+4. **Painel** — a skill `prospector-setup` baixa os arquivos do painel deste repositório para a pasta do projeto e cria o banco. Depois é só dar duplo clique em `iniciar-dashboard.bat` (Windows) ou `iniciar-dashboard.command` (Mac): o painel abre em `http://localhost:8765`. Precisa de **Python instalado e no PATH** (no instalador oficial, marque "Add python.exe to PATH"). Sem Python, o `dashboard.html` ainda abre por duplo clique, em modo leitura.
 
 Depois é só dizer no chat: **"configurar o prospector"**.
 
