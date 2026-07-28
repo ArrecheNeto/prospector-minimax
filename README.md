@@ -29,7 +29,11 @@ Copywriter → escreve a proposta
 Verifier   → revisa a entrega de cada um, sem ter participado da execução
 ```
 
+A esteira roda em **sequência** (o Designer não tem o que refazer antes do Scout achar o lead). O paralelismo real acontece dentro de uma etapa: várias buscas ao mesmo tempo, ou vários sites sendo refeitos ao mesmo tempo.
+
 O Verifier é o que segura a qualidade: ele não vê como o trabalho foi feito, só o resultado — então julga o que está na tela. Se a página quebra no celular, se o e-mail tem algo que cai no spam, se o site publicado ficou com imagem quebrada: volta pra correção antes de chegar no cliente.
+
+**Como criar:** no rodapé do menu esquerdo, em **Agent Team**, clique no **+**. Preencha *Name* (até 20 caracteres) e *Description* (até 100). O **Verifier já vem pronto** — só é preciso criar Scout, Designer, Publisher e Copywriter. As descrições prontas estão na skill `time-prospector`.
 
 ## ⚠️ Precisa ser o MiniMax Code **desktop**
 
